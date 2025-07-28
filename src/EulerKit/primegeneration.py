@@ -25,7 +25,7 @@ def makePrimeFile(x:int, y:int, path:str = "/home/marco/1MillionPrimes.txt") -> 
                 sieve[multiple] = False
     primes = [num for num in range(x, y + 1) if sieve[num]]
 
-    with open("path", "w") as f:
+    with open(path, "w") as f:
         for i in primes:
             f.write(f"{i}\n")
     
