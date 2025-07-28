@@ -7,7 +7,7 @@ packages = ["src/EulerKit"]
 
 [project]
 name = "EulerKit"
-version = "0.1.3"
+version = "0.1.4"
 authors = [
   { name="Marco Platino", email="mnplatino@gmail.com" },
 ]
@@ -24,3 +24,4 @@ license-files = ["LICEN[CS]E*"]
 [project.urls]
 Homepage = "https://github.com/MarcoPlatino/EulerKit"
 Issues = "https://github.com/MarcoPlatino/EulerKit/issues"
+Wiki = "https://github.com/MarcoPlatino/EulerKit/wiki"
