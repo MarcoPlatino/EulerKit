@@ -22,3 +22,5 @@ license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
 [project.urls]
+Homepage = "https://github.com/MarcoPlatino/EulerKit"
+Issues = "https://github.com/MarcoPlatino/EulerKit/issues"
