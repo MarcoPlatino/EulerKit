@@ -1,7 +1,7 @@
 # EulerKit
 
 <!-- Badges -->
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/MarcoPlatino/EulerKit/python-app.yml?branch=main)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/MarcoPlatino/EulerKit/python_publish.yml?branch=main)
 [![PyPI Version](https://img.shields.io/pypi/v/eulerkit.svg)](https://pypi.org/project/eulerkit/)
 ![Python Versions](https://img.shields.io/pypi/pyversions/eulerkit.svg)
 ![License](https://img.shields.io/github/license/MarcoPlatino/EulerKit)
