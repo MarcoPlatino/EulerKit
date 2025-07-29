@@ -17,3 +17,16 @@ Here is a (non-comprehensive) list of features that are in the library:
     - The ability to generate a large set of prime numbers - to a list or to a file if you want to pre-generate them.
 - Pandigital
     - The ability to verify if a number is pandigital or not
+
+### Quickstart:
+You can install the library by running this simple command:
+
+`pip install EulerKit`
+
+From there you can begin using the library immediately by importing it at the top of your python projects like this:
+
+```python
+from EulerKit import*
+```
+
+If you want more finetuned control, check the wiki.
