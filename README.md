@@ -29,4 +29,4 @@ From there you can begin using the library immediately by importing it at the to
 from EulerKit import*
 ```
 
-If you want more finetuned control, check the wiki.
+If you want a more comprehensive guide, check the [wiki](https://github.com/MarcoPlatino/EulerKit/wiki)
