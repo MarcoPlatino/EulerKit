@@ -69,3 +69,7 @@ def findPrimeFactors(n: int, type:str = "set"):
             return [n]
     else:
         return "Invalid Type"
+    
+    
+if __name__ == "__main__":
+    print(findPrimeFactors(644))
