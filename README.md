@@ -30,3 +30,5 @@ from EulerKit import*
 ```
 
 If you want a more comprehensive guide, check the [wiki](https://github.com/MarcoPlatino/EulerKit/wiki)
+
+If you are curious, the PyPi page is located [here](https://pypi.org/project/EulerKit/)
