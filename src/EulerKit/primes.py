@@ -38,3 +38,34 @@ def isPrime(number):
         if number % i == 0:
             return False
     return True
+
+def findPrimeFactors(n: int, type:str = "set"):
+    type = type.lower()
+    if type == "set":
+        if n == 1:
+            return set()
+        elif n % 2 == 0:
+            return {2} | findPrimeFactors(n//2)
+        else:
+            d = 3
+            limit = int(n**0.5)
+            while d <= limit:
+                if n % d == 0:
+                    return {d} | findPrimeFactors(n//d)
+                d += 2
+            return {n}
+    elif type == "list":
+        if n == 1:
+            return []
+        elif n % 2 == 0:
+            return [2] + findPrimeFactors(n//2, "list")
+        else:
+            d = 3
+            limit = int(n**0.5)
+            while d <= limit:
+                if n % d == 0:
+                    return [d] + findPrimeFactors(n//d, "list")
+                d += 2
+            return [n]
+    else:
+        return "Invalid Type"

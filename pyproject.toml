@@ -7,7 +7,7 @@ packages = ["src/EulerKit"]
 
 [project]
 name = "EulerKit"
-version = "0.2.5"
+version = "0.3.5"
 authors = [
   { name="Marco Platino", email="mnplatino@gmail.com" },
 ]
