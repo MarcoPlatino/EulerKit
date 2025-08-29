@@ -1,7 +1,3 @@
-#My custom library for various functions that I use a lot when I am solving problems on project Euler
-#Currently I have functions for everything from a loading screen - For when I am running something somewhat inefficient and need to indicate that something is happening
-# I also seem to always be trying to generate a large amount of prime numbers, so I included files for generating a list of primes,
-# and also included function to generate file of primes, because then I will be able to pre-generate primes.
 import math
 
 
