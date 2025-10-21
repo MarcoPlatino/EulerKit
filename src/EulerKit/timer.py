@@ -43,7 +43,7 @@ class programTimer():
         self.timeElapsed = self.endTime - self.startTime
         self.finished = True
 
-    def __str__(self): #Also __enter__ and __exit__ methods to be added
+    def __str__(self):
         if not self.finished:
             if self.verboseOutput: 
                 return(f'Time Elapsed: {(time.time() - self.startTime):.4f} seconds')
@@ -60,7 +60,7 @@ class programTimer():
 if __name__ == "__main__":
     import math
 
-    timepassed = programTimer(False)
+    timepassed = programTimer()
 
     # timepass/ed.start()
 
