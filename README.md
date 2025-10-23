@@ -23,7 +23,7 @@ You can install the library by running:
 
 `pip install EulerKit`
 
-From there you can begin using the library immediately by importing it at the top of your python projects like this:
+From there you can begin using the library immediately by including it as one of your imports:
 
 ```python
 from EulerKit import*
