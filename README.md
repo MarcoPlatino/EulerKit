@@ -19,7 +19,7 @@ Here is a (non-comprehensive) list of features that are in the library:
     - The ability to verify if a number is pandigital or not
 
 ### Quickstart:
-You can install the library by running this simple command:
+You can install the library by running:
 
 `pip install EulerKit`
 
