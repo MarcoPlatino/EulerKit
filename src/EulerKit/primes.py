@@ -68,4 +68,4 @@ def findPrimeFactors(n: int, type:str = "set"):
     
     
 if __name__ == "__main__":
-    print(findPrimeFactors(644))
+    print(findPrimeFactors(2))
